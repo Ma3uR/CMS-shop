@@ -12,5 +12,7 @@
 <p><b>Файл, в котором произошла ошибка:</b> <?= $errfile ?></p>
 <p><b>Строка, в которой произошла ошибка:</b> <?= $errline ?></p>
 
+<img src="https://i.imgur.com/ZfE0W.gif" alt="12">
+
 </body>
 </html>

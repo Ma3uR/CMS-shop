@@ -241,3 +241,99 @@
 [Sat Aug 01 14:49:15.578603 2020] [php7:notice] [pid 20] [client 172.17.0.6:51894] PHP   5. app\\models\\AppModel->__construct() /var/www/html/app/controllers/AppController.php:12
 [Sat Aug 01 14:49:15.578618 2020] [php7:notice] [pid 20] [client 172.17.0.6:51894] PHP   6. ishop\\Db::instance() /var/www/html/vendor/ishop/core/base/Model.php:14
 [Sat Aug 01 14:49:15.578671 2020] [php7:notice] [pid 20] [client 172.17.0.6:51894] PHP   7. ishop\\Db->__construct() /var/www/html/vendor/ishop/core/TSingletone.php:11
+[Sun Aug 02 13:00:47.853213 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP Warning:  require(rb.php): failed to open stream: No such file or directory in /var/www/html/vendor/ishop/core/Db.php on line 10
+[Sun Aug 02 13:00:47.889247 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP Stack trace:
+[Sun Aug 02 13:00:47.889307 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   1. {main}() /var/www/html/public/index.php:0
+[Sun Aug 02 13:00:47.889328 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
+[Sun Aug 02 13:00:47.889338 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   3. ishop\\Router::dispatch() /var/www/html/vendor/ishop/core/App.php:15
+[Sun Aug 02 13:00:47.889348 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   4. app\\controllers\\MainController->__construct() /var/www/html/vendor/ishop/core/Router.php:27
+[Sun Aug 02 13:00:47.889358 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   5. app\\models\\AppModel->__construct() /var/www/html/app/controllers/AppController.php:12
+[Sun Aug 02 13:00:47.889367 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   6. ishop\\Db::instance() /var/www/html/vendor/ishop/core/base/Model.php:14
+[Sun Aug 02 13:00:47.889376 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   7. ishop\\Db->__construct() /var/www/html/vendor/ishop/core/TSingletone.php:11
+[Sun Aug 02 13:00:47.889498 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP Fatal error:  require(): Failed opening required 'rb.php' (include_path='.:/usr/local/lib/php') in /var/www/html/vendor/ishop/core/Db.php on line 10
+[Sun Aug 02 13:00:47.889519 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP Stack trace:
+[Sun Aug 02 13:00:47.889529 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   1. {main}() /var/www/html/public/index.php:0
+[Sun Aug 02 13:00:47.889538 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
+[Sun Aug 02 13:00:47.889547 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   3. ishop\\Router::dispatch() /var/www/html/vendor/ishop/core/App.php:15
+[Sun Aug 02 13:00:47.889572 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   4. app\\controllers\\MainController->__construct() /var/www/html/vendor/ishop/core/Router.php:27
+[Sun Aug 02 13:00:47.889581 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   5. app\\models\\AppModel->__construct() /var/www/html/app/controllers/AppController.php:12
+[Sun Aug 02 13:00:47.889589 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   6. ishop\\Db::instance() /var/www/html/vendor/ishop/core/base/Model.php:14
+[Sun Aug 02 13:00:47.889597 2020] [php7:notice] [pid 18] [client 172.17.0.5:56170] PHP   7. ishop\\Db->__construct() /var/www/html/vendor/ishop/core/TSingletone.php:11
+[Sun Aug 02 13:08:28.315753 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Warning:  require(rb.php): failed to open stream: No such file or directory in /var/www/html/vendor/ishop/core/Db.php on line 10
+[Sun Aug 02 13:08:28.315788 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Stack trace:
+[Sun Aug 02 13:08:28.315800 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   1. {main}() /var/www/html/public/index.php:0
+[Sun Aug 02 13:08:28.315809 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
+[Sun Aug 02 13:08:28.315818 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   3. ishop\\Router::dispatch() /var/www/html/vendor/ishop/core/App.php:15
+[Sun Aug 02 13:08:28.315828 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   4. app\\controllers\\MainController->__construct() /var/www/html/vendor/ishop/core/Router.php:27
+[Sun Aug 02 13:08:28.315834 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   5. app\\models\\AppModel->__construct() /var/www/html/app/controllers/AppController.php:12
+[Sun Aug 02 13:08:28.315840 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   6. ishop\\Db::instance() /var/www/html/vendor/ishop/core/base/Model.php:14
+[Sun Aug 02 13:08:28.315845 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   7. ishop\\Db->__construct() /var/www/html/vendor/ishop/core/TSingletone.php:11
+[Sun Aug 02 13:08:28.315912 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Fatal error:  require(): Failed opening required 'rb.php' (include_path='.:/usr/local/lib/php') in /var/www/html/vendor/ishop/core/Db.php on line 10
+[Sun Aug 02 13:08:28.315922 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Stack trace:
+[Sun Aug 02 13:08:28.315928 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   1. {main}() /var/www/html/public/index.php:0
+[Sun Aug 02 13:08:28.315933 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
+[Sun Aug 02 13:08:28.315939 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   3. ishop\\Router::dispatch() /var/www/html/vendor/ishop/core/App.php:15
+[Sun Aug 02 13:08:28.315945 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   4. app\\controllers\\MainController->__construct() /var/www/html/vendor/ishop/core/Router.php:27
+[Sun Aug 02 13:08:28.315951 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   5. app\\models\\AppModel->__construct() /var/www/html/app/controllers/AppController.php:12
+[Sun Aug 02 13:08:28.315956 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   6. ishop\\Db::instance() /var/www/html/vendor/ishop/core/base/Model.php:14
+[Sun Aug 02 13:08:28.315962 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   7. ishop\\Db->__construct() /var/www/html/vendor/ishop/core/TSingletone.php:11
+[Sun Aug 02 13:08:29.115076 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Warning:  require(rb.php): failed to open stream: No such file or directory in /var/www/html/vendor/ishop/core/Db.php on line 10
+[Sun Aug 02 13:08:29.115110 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Stack trace:
+[Sun Aug 02 13:08:29.115127 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   1. {main}() /var/www/html/public/index.php:0
+[Sun Aug 02 13:08:29.115151 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
+[Sun Aug 02 13:08:29.115157 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   3. ishop\\Router::dispatch() /var/www/html/vendor/ishop/core/App.php:15
+[Sun Aug 02 13:08:29.115163 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   4. app\\controllers\\MainController->__construct() /var/www/html/vendor/ishop/core/Router.php:27
+[Sun Aug 02 13:08:29.115169 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   5. app\\models\\AppModel->__construct() /var/www/html/app/controllers/AppController.php:12
+[Sun Aug 02 13:08:29.115174 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   6. ishop\\Db::instance() /var/www/html/vendor/ishop/core/base/Model.php:14
+[Sun Aug 02 13:08:29.115179 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   7. ishop\\Db->__construct() /var/www/html/vendor/ishop/core/TSingletone.php:11
+[Sun Aug 02 13:08:29.115236 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Fatal error:  require(): Failed opening required 'rb.php' (include_path='.:/usr/local/lib/php') in /var/www/html/vendor/ishop/core/Db.php on line 10
+[Sun Aug 02 13:08:29.115242 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Stack trace:
+[Sun Aug 02 13:08:29.115247 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   1. {main}() /var/www/html/public/index.php:0
+[Sun Aug 02 13:08:29.115252 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
+[Sun Aug 02 13:08:29.115257 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   3. ishop\\Router::dispatch() /var/www/html/vendor/ishop/core/App.php:15
+[Sun Aug 02 13:08:29.115263 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   4. app\\controllers\\MainController->__construct() /var/www/html/vendor/ishop/core/Router.php:27
+[Sun Aug 02 13:08:29.115268 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   5. app\\models\\AppModel->__construct() /var/www/html/app/controllers/AppController.php:12
+[Sun Aug 02 13:08:29.115273 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   6. ishop\\Db::instance() /var/www/html/vendor/ishop/core/base/Model.php:14
+[Sun Aug 02 13:08:29.115278 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   7. ishop\\Db->__construct() /var/www/html/vendor/ishop/core/TSingletone.php:11
+[Sun Aug 02 13:08:29.475841 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Warning:  require(rb.php): failed to open stream: No such file or directory in /var/www/html/vendor/ishop/core/Db.php on line 10
+[Sun Aug 02 13:08:29.475866 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Stack trace:
+[Sun Aug 02 13:08:29.475883 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   1. {main}() /var/www/html/public/index.php:0
+[Sun Aug 02 13:08:29.475894 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
+[Sun Aug 02 13:08:29.475902 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   3. ishop\\Router::dispatch() /var/www/html/vendor/ishop/core/App.php:15
+[Sun Aug 02 13:08:29.475909 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   4. app\\controllers\\MainController->__construct() /var/www/html/vendor/ishop/core/Router.php:27
+[Sun Aug 02 13:08:29.475914 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   5. app\\models\\AppModel->__construct() /var/www/html/app/controllers/AppController.php:12
+[Sun Aug 02 13:08:29.475920 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   6. ishop\\Db::instance() /var/www/html/vendor/ishop/core/base/Model.php:14
+[Sun Aug 02 13:08:29.475926 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   7. ishop\\Db->__construct() /var/www/html/vendor/ishop/core/TSingletone.php:11
+[Sun Aug 02 13:08:29.475985 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Fatal error:  require(): Failed opening required 'rb.php' (include_path='.:/usr/local/lib/php') in /var/www/html/vendor/ishop/core/Db.php on line 10
+[Sun Aug 02 13:08:29.476002 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Stack trace:
+[Sun Aug 02 13:08:29.476008 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   1. {main}() /var/www/html/public/index.php:0
+[Sun Aug 02 13:08:29.476014 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
+[Sun Aug 02 13:08:29.476019 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   3. ishop\\Router::dispatch() /var/www/html/vendor/ishop/core/App.php:15
+[Sun Aug 02 13:08:29.476025 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   4. app\\controllers\\MainController->__construct() /var/www/html/vendor/ishop/core/Router.php:27
+[Sun Aug 02 13:08:29.476030 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   5. app\\models\\AppModel->__construct() /var/www/html/app/controllers/AppController.php:12
+[Sun Aug 02 13:08:29.476035 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   6. ishop\\Db::instance() /var/www/html/vendor/ishop/core/base/Model.php:14
+[Sun Aug 02 13:08:29.476041 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   7. ishop\\Db->__construct() /var/www/html/vendor/ishop/core/TSingletone.php:11
+[Sun Aug 02 13:08:29.675704 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Warning:  require(rb.php): failed to open stream: No such file or directory in /var/www/html/vendor/ishop/core/Db.php on line 10
+[Sun Aug 02 13:08:29.675739 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Stack trace:
+[Sun Aug 02 13:08:29.675751 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   1. {main}() /var/www/html/public/index.php:0
+[Sun Aug 02 13:08:29.675761 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
+[Sun Aug 02 13:08:29.675770 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   3. ishop\\Router::dispatch() /var/www/html/vendor/ishop/core/App.php:15
+[Sun Aug 02 13:08:29.675779 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   4. app\\controllers\\MainController->__construct() /var/www/html/vendor/ishop/core/Router.php:27
+[Sun Aug 02 13:08:29.675789 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   5. app\\models\\AppModel->__construct() /var/www/html/app/controllers/AppController.php:12
+[Sun Aug 02 13:08:29.675798 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   6. ishop\\Db::instance() /var/www/html/vendor/ishop/core/base/Model.php:14
+[Sun Aug 02 13:08:29.675806 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   7. ishop\\Db->__construct() /var/www/html/vendor/ishop/core/TSingletone.php:11
+[Sun Aug 02 13:08:29.675898 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Fatal error:  require(): Failed opening required 'rb.php' (include_path='.:/usr/local/lib/php') in /var/www/html/vendor/ishop/core/Db.php on line 10
+[Sun Aug 02 13:08:29.675908 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP Stack trace:
+[Sun Aug 02 13:08:29.675916 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   1. {main}() /var/www/html/public/index.php:0
+[Sun Aug 02 13:08:29.675924 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
+[Sun Aug 02 13:08:29.675933 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   3. ishop\\Router::dispatch() /var/www/html/vendor/ishop/core/App.php:15
+[Sun Aug 02 13:08:29.675941 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   4. app\\controllers\\MainController->__construct() /var/www/html/vendor/ishop/core/Router.php:27
+[Sun Aug 02 13:08:29.675950 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   5. app\\models\\AppModel->__construct() /var/www/html/app/controllers/AppController.php:12
+[Sun Aug 02 13:08:29.675959 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   6. ishop\\Db::instance() /var/www/html/vendor/ishop/core/base/Model.php:14
+[Sun Aug 02 13:08:29.675988 2020] [php7:notice] [pid 17] [client 172.17.0.5:56230] PHP   7. ishop\\Db->__construct() /var/www/html/vendor/ishop/core/TSingletone.php:11
+[Sun Aug 02 13:25:47.128043 2020] [php7:notice] [pid 16] [client 172.17.0.5:56932] PHP Notice:  Array to string conversion in /var/www/html/app/controllers/MainController.php on line 11
+[Sun Aug 02 13:25:47.128118 2020] [php7:notice] [pid 16] [client 172.17.0.5:56932] PHP Stack trace:
+[Sun Aug 02 13:25:47.128142 2020] [php7:notice] [pid 16] [client 172.17.0.5:56932] PHP   1. {main}() /var/www/html/public/index.php:0
+[Sun Aug 02 13:25:47.128160 2020] [php7:notice] [pid 16] [client 172.17.0.5:56932] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
+[Sun Aug 02 13:25:47.128173 2020] [php7:notice] [pid 16] [client 172.17.0.5:56932] PHP   3. ishop\\Router::dispatch() /var/www/html/vendor/ishop/core/App.php:15
+[Sun Aug 02 13:25:47.128188 2020] [php7:notice] [pid 16] [client 172.17.0.5:56932] PHP   4. app\\controllers\\MainController->indexAction() /var/www/html/vendor/ishop/core/Router.php:30

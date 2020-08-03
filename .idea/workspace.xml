@@ -2,60 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e366dc5c-b7a6-4702-aeb8-17f7f767edde" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ishop2.loc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/AppController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/PageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/AppModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/init.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/params.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-rebuild.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-sync.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/virtual-host.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/errors/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/errors/dev.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/errors/images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/errors/prod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/cache/098f6bcd4621d373cade4e832627b4f6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ishop/core/App.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ishop/core/Cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ishop/core/Db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ishop/core/ErrorHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ishop/core/Registry.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ishop/core/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ishop/core/TSingletone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ishop/core/base/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ishop/core/base/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ishop/core/base/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ishop/core/libs/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/CurrencyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/watches.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/widgets/currency/Currency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/widgets/currency/currency_tpl/currency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/memenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/BreeSerif-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Lato-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Lora-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Muli-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Philosopher-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/abt-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/abt-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/abt-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bnr-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bnr-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bnr-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/c-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/c-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/c-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cart-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cart-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cart-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/crossword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/no_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/p-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/p-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/p-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/p-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/p-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/p-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/p-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/p-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pr-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pr-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/s-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/s-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/s-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/s-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/imagezoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.easydropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/memenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/responsiveslides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/simpleCart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/AppController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/PageController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/errors/dev.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/errors/dev.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/098f6bcd4621d373cade4e832627b4f6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/098f6bcd4621d373cade4e832627b4f6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/log/apache_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/log/apache_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ishop/core/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ishop/core/libs/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +86,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package_json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="ishop2.loc" id="daba7511-9083-4d46-92db-b5b0b4dc2b89" name="ishop2.loc" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/public" remote-root="/var/www/html/public" />
+        </path_mappings>
+      </server>
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -96,8 +123,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Constants" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -105,6 +133,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/widgets/currency" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.gulp">
@@ -137,7 +173,8 @@
       <workItem from="1596124219020" duration="1552000" />
       <workItem from="1596202909871" duration="379000" />
       <workItem from="1596204522571" duration="3842000" />
-      <workItem from="1596283307880" duration="2599000" />
+      <workItem from="1596283307880" duration="7171000" />
+      <workItem from="1596370007854" duration="15127000" />
     </task>
     <servers />
   </component>
@@ -151,6 +188,62 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1874" height="344" key="GridCell.Tab.0.bottom" timestamp="1596296940104">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596296940104" />
+    <state width="1874" height="344" key="GridCell.Tab.0.center" timestamp="1596296940104">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596296940104" />
+    <state width="1874" height="344" key="GridCell.Tab.0.left" timestamp="1596296940104">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596296940104" />
+    <state width="1874" height="344" key="GridCell.Tab.0.right" timestamp="1596296940104">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596296940104" />
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom" timestamp="1596296940105">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596296940105" />
+    <state width="1874" height="344" key="GridCell.Tab.1.center" timestamp="1596296940105">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596296940105" />
+    <state width="1874" height="344" key="GridCell.Tab.1.left" timestamp="1596296940104">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596296940104" />
+    <state width="1874" height="344" key="GridCell.Tab.1.right" timestamp="1596296940105">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596296940105" />
+    <state width="1874" height="344" key="GridCell.Tab.2.bottom" timestamp="1596296940106">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.2.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596296940106" />
+    <state width="1874" height="344" key="GridCell.Tab.2.center" timestamp="1596296940105">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.2.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596296940105" />
+    <state width="1874" height="344" key="GridCell.Tab.2.left" timestamp="1596296940105">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.2.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596296940105" />
+    <state width="1874" height="344" key="GridCell.Tab.2.right" timestamp="1596296940105">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.2.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596296940105" />
+    <state x="714" y="272" width="585" height="561" key="NewPhpClassDialog" timestamp="1596452285419">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="714" y="272" width="585" height="561" key="NewPhpClassDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1596452285419" />
+    <state x="755" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1596294428566">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="755" y="478" width="399" height="149" key="NewPhpFileDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1596294428566" />
     <state x="520" y="190" width="934" height="670" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596124178173">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

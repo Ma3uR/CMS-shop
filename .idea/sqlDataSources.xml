@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="60add713-d477-481f-870c-35250abab667" />
+          <option name="name" value="ishop2" />
+          <option name="urls">
+            <array>
+              <option value="file://$USER_HOME$/Downloads/Telegram Desktop/ishop2.sql" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

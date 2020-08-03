@@ -18,5 +18,4 @@ class Db{
             \R::debug(true, 1);
         }
     }
-
 }
