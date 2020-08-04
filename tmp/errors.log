@@ -802,3 +802,9 @@
 =================
 [2020-08-03 17:35:57] Текст ошибки: Контроллер app\controllers\CurrencyController не найден | Файл: /var/www/html/vendor/ishop/core/Router.php | Строка: 36
 =================
+[2020-08-04 10:39:54] Текст ошибки: Страница не найдена | Файл: /var/www/html/vendor/ishop/core/Router.php | Строка: 39
+=================
+[2020-08-04 11:24:16] Текст ошибки: Class 'app\widgets\menu\Cache' not found | Файл: /var/www/html/app/widgets/menu/Menu.php | Строка: 38
+=================
+[2020-08-04 11:59:56] Текст ошибки: syntax error, unexpected ''id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' | Файл: /var/www/html/app/views/layouts/watches.php | Строка: 69
+=================

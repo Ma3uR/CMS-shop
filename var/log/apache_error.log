@@ -337,3 +337,14 @@
 [Sun Aug 02 13:25:47.128160 2020] [php7:notice] [pid 16] [client 172.17.0.5:56932] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
 [Sun Aug 02 13:25:47.128173 2020] [php7:notice] [pid 16] [client 172.17.0.5:56932] PHP   3. ishop\\Router::dispatch() /var/www/html/vendor/ishop/core/App.php:15
 [Sun Aug 02 13:25:47.128188 2020] [php7:notice] [pid 16] [client 172.17.0.5:56932] PHP   4. app\\controllers\\MainController->indexAction() /var/www/html/vendor/ishop/core/Router.php:30
+[Tue Aug 04 11:55:15.786255 2020] [php7:notice] [pid 28] [client 172.17.0.3:33410] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/app/widgets/menu/Menu.php on line 57
+[Tue Aug 04 11:55:15.812539 2020] [php7:notice] [pid 28] [client 172.17.0.3:33410] PHP Stack trace:
+[Tue Aug 04 11:55:15.812578 2020] [php7:notice] [pid 28] [client 172.17.0.3:33410] PHP   1. {main}() /var/www/html/public/index.php:0
+[Tue Aug 04 11:55:15.812586 2020] [php7:notice] [pid 28] [client 172.17.0.3:33410] PHP   2. ishop\\App->__construct() /var/www/html/public/index.php:7
+[Tue Aug 04 11:55:15.812593 2020] [php7:notice] [pid 28] [client 172.17.0.3:33410] PHP   3. ishop\\Router::dispatch($url = *uninitialized*) /var/www/html/vendor/ishop/core/App.php:15
+[Tue Aug 04 11:55:15.812600 2020] [php7:notice] [pid 28] [client 172.17.0.3:33410] PHP   4. app\\controllers\\MainController->getView() /var/www/html/vendor/ishop/core/Router.php:31
+[Tue Aug 04 11:55:15.812606 2020] [php7:notice] [pid 28] [client 172.17.0.3:33410] PHP   5. ishop\\base\\View->render($data = *uninitialized*) /var/www/html/vendor/ishop/core/base/Controller.php:26
+[Tue Aug 04 11:55:15.812612 2020] [php7:notice] [pid 28] [client 172.17.0.3:33410] PHP   6. require_once() /var/www/html/vendor/ishop/core/base/View.php:43
+[Tue Aug 04 11:55:15.812619 2020] [php7:notice] [pid 28] [client 172.17.0.3:33410] PHP   7. app\\widgets\\menu\\Menu->__construct($options = *uninitialized*) /var/www/html/app/views/layouts/watches.php:67
+[Tue Aug 04 11:55:15.812625 2020] [php7:notice] [pid 28] [client 172.17.0.3:33410] PHP   8. app\\widgets\\menu\\Menu->run() /var/www/html/app/widgets/menu/Menu.php:26
+[Tue Aug 04 11:55:15.812631 2020] [php7:notice] [pid 28] [client 172.17.0.3:33410] PHP   9. app\\widgets\\menu\\Menu->output() /var/www/html/app/widgets/menu/Menu.php:51
