@@ -808,3 +808,11 @@
 =================
 [2020-08-04 11:59:56] Текст ошибки: syntax error, unexpected ''id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' | Файл: /var/www/html/app/views/layouts/watches.php | Строка: 69
 =================
+[2020-08-04 14:14:50] Текст ошибки: Страница не найдена | Файл: /var/www/html/vendor/ishop/core/Router.php | Строка: 39
+=================
+[2020-08-04 14:15:54] Текст ошибки: Страница не найдена | Файл: /var/www/html/vendor/ishop/core/Router.php | Строка: 39
+=================
+[2020-08-04 14:25:18] Текст ошибки: Страница не найдена | Файл: /var/www/html/vendor/ishop/core/Router.php | Строка: 39
+=================
+[2020-08-05 08:53:56] Текст ошибки: Страница не найдена | Файл: /var/www/html/vendor/ishop/core/Router.php | Строка: 39
+=================
