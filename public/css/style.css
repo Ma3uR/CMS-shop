@@ -1658,6 +1658,8 @@ ul.star-footer li i {
 }
 ul.tag-men {
     padding: 0.3em 0;
+    border-top: 1px solid #C4C3C3;
+    border-bottom: 1px solid #C4C3C3;
     margin: 10px 0 0 0;
 }
 ul.tag-men li {
@@ -3067,4 +3069,17 @@ ul.tag-men {
 /* new styles */
 .product-one > .product-left{
 	margin-bottom: 20px;
+}
+
+.quantity{
+	margin-top: 3em;
+	margin-right: 10px;
+	float: left;
+}
+
+#cart table img{
+	height: 50px;
+}
+.del-item {
+	cursor: pointer;
 }
